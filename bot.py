@@ -8,6 +8,7 @@ load_dotenv()
 
 TOKEN=os.getenv("DISCORD_TOKEN")
 
+#add own API key here
 API_KEY =  ''
 
 bot = commands.Bot(command_prefix="!")
